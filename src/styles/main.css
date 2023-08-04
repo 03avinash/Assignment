@@ -1,0 +1,332 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main-section {
+  display: flex;
+  width: 100%;
+  height: 640px;
+}
+.blur-section {
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 20%;
+  display: flex;
+  .dots-image {
+    width: 63px;
+    z-index: 99999;
+    height: 70px;
+  }
+}
+.blur-box {
+  width: 100%;
+  max-width: 460px;
+  min-height: 300px;
+  background: rgba(255, 255, 255, 0.2);
+  z-index: 1;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  right: -80%;
+  top: 12%;
+  position: absolute;
+  min-width: 340px;
+  color: #256063;
+  font-weight: bolder;
+  padding: 50px 65px 50px 16px;
+}
+
+.blur-box h1 {
+  font-family: auto;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.blur-box .heading-info {
+  font-weight: 500;
+  font-size: 12px;
+  opacity: 0.5;
+  padding-right: 30px;
+  color: #000000;
+}
+.carousel-container {
+  display: flex;
+  width: 72%;
+  background-color: blue;
+}
+.carousel-control {
+  width: 8%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 35px;
+  right: -47px;
+  top: 340px;
+}
+.pre {
+  height: 50%;
+}
+.down-arrow {
+  position: absolute;
+  width: 98px;
+  height: 100px;
+  display: flex;
+  right: 110px;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  padding: 7px 6px;
+  justify-content: center;
+  bottom: 70px;
+  background: rgb(243 243 243 / 71%);
+}
+.partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00508017;
+  margin: 90px 0;
+  gap: 39px;
+  flex-direction: column;
+  padding: 45px 0;
+}
+.company-heading {
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.companies-container {
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: auto;
+  color: #939393;
+  width: 100%;
+}
+.hot_deals_wrapper {
+  display: flex;
+  gap: 60px;
+  padding: 100px 110px;
+  align-items: center;
+}
+
+.hot-deals {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hot-deals .deals {
+  font-family: ui-sans-serif;
+  color: #256063;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.hot-deals.deals-text {
+  padding-top: 6px;
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+.deals-box {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.deals-box .deals-heading {
+  font-weight: 700;
+}
+
+.deals-box .deals-text {
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+.about_us_wapper .heading-button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  padding: 40px 147px 40px 100px;
+}
+
+.heading-button .heading-info .heading {
+  font-family: ui-sans-serif;
+  color: #256063;
+  font-weight: 600;
+}
+
+.about_us_wapper .heading-button button {
+  width: 140px;
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.about-section {
+  display: flex;
+  margin-bottom: 150px;
+  padding: 0 110px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.about-section .left-section {
+  display: flex;
+  gap: 40px;
+  width: 43%;
+  flex-wrap: wrap;
+}
+
+.about-section .left-section .info-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 40%;
+}
+
+.about-section .left-section .info-box .number {
+  font-size: 33px;
+  font-weight: 500;
+  color: #256063;
+}
+
+.about-section .left-section .info-box .heading-bold {
+  color: #256063;
+  font-weight: 600;
+}
+
+.about-section .left-section .info-box .small-text {
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+.about-section .right-section {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.about-section .right-section .about-image-two-type {
+  width: 173px;
+  height: 200px;
+}
+
+.about-section .right-section .about-image-one-type {
+  width: 197px;
+}
+.product-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 70px;
+  padding: 40px 147px 40px 100px;
+}
+.product-wrapper .product-heading-button {
+  display: flex;
+  padding-bottom: 60px;
+  justify-content: space-between;
+}
+.product-wrapper .product-heading-button .section-heading {
+  font-family: ui-sans-serif;
+  color: #256063;
+  font-weight: 600;
+}
+.Products-toggle {
+  display: flex;
+  width: 100%;
+  font-size: 14px;
+  column-gap: 45px;
+  list-style: none;
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+}
+.Products-toggle a:hover {
+  color: gray;
+}
+.product-images {
+  flex-wrap: wrap;
+  padding-top: 30px;
+  grid-template-columns: auto auto auto auto;
+  gap: 40px;
+  display: grid;
+  justify-content: center;
+}
+.product-images img {
+  height: 240px;
+}
+.client_feedback_wrapper {
+  display: flex;
+  margin: 100px 70px 70px 70px;
+  flex-direction: column;
+  background: #00508017;
+}
+.client_top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 71px;
+}
+.client_top h1 {
+  font-family: ui-sans-serif;
+  color: #256063;
+  font-weight: 600;
+  text-align: center;
+}
+.client_top p {
+  font-size: 13px;
+  opacity: 0.8;
+  text-align: center;
+}
+.client_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 297px;
+  gap: 70px;
+}
+.client_feedback {
+  line-height: 21px;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 29px 0px;
+  font-family: cursive;
+}
+.client_title {
+  font-size: 10px;
+  opacity: 0.7;
+  font-weight: 500;
+}
+.Client_button {
+  display: flex;
+  padding: 40px 0px;
+  gap: 51px;
+}
+.btn_client {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  outline: none;
+  padding: 20px;
+  border: none;
+  border-radius: 50%;
+}
